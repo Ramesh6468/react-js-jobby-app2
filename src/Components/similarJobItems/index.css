@@ -35,7 +35,28 @@
 
   font-size: 20px;
 }
-
+.location1 {
+  color: #ffffff;
+  margin-left: 5px;
+}
+.locationIcon {
+  color: #ffffff;
+}
+.type1 {
+  color: #ffffff;
+  margin-left: 5px;
+}
+.bagIcon {
+  color: #ffffff;
+}
+.rating {
+    color: #ffffff;
+    margin-left: 5px;
+}
+.descriptionHeading {
+    color: #ffffff;
+    font-weight: bold;
+}
 @media screen and (max-width: 768px) {
   .similarJobItemCard {
     width: 84%;
