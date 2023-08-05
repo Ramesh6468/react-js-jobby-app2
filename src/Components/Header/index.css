@@ -1,0 +1,52 @@
+.headerCard {
+  background-color: #202020;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.itemList {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.item {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.headerCard1 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .headerCard1 {
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headerCard {
+    display: none;
+  }
+  .logo {
+    height: 30px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .button2 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .icon2 {
+    font-size: 20px;
+    background-color: transparent;
+  }
+}
